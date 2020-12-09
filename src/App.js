@@ -60,6 +60,13 @@ function App() {
           allowfullscreen
         ></iframe>
         <h2>TED talk </h2>
+        <ul>
+          <li>you need to commit mistakes to learn</li>
+          <li>the practice do the master</li>
+          <li>don't feel judged for another people</li>
+          <li>just focus in the result of the conversation</li>
+          <li>lenguage is a tool to comunicate</li>
+        </ul>
       </div>
     </div>
   );
