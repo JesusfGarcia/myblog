@@ -8,7 +8,6 @@ import female from "./img/female.png";
 import male from "./img/male.jpg";
 import meet from "./img/meet.jpg";
 import spell from "./img/spell.jpg";
-import myVideo from "./img/english.mp4";
 
 function App() {
   const [vocabulary, setVocabulary] = React.useState([
@@ -52,9 +51,7 @@ function App() {
           when we start the university
         </p>
         <h2>My Video</h2>
-        <video width="480" height="360" controls>
-          <source src={myVideo} type="video/mp4" />
-        </video>
+
         <h2>TED talk </h2>
       </div>
     </div>
