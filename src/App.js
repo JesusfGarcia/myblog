@@ -51,7 +51,14 @@ function App() {
           when we start the university
         </p>
         <h2>My Video</h2>
-
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/eIJK_Crvd2s"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <h2>TED talk </h2>
       </div>
     </div>
