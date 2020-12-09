@@ -37,7 +37,10 @@ function App() {
         <h2>¿Who i am?</h2>
         <p>
           Hello, My name is Jesús Francisco García Valdez, actually i'm 21 years
-          old, and i born in Los Mochis city, from the state of Sinaloa.
+          old, and i born in Los Mochis city, from the state of Sinaloa. I'm a
+          front end programer, my hobbies are play the piano and play
+          videogames, i'm actually studing on the technologic institute of Los
+          Mochis the especiality of Informatic engineering
         </p>
         <h2>My Friends</h2>
         <p>
