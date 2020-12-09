@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #ede7f6;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #673ab7;
+  height: 64px;
+  padding: 20px;
   color: white;
+  font-size: 30px;
+  font-weight: bold;
+  align-items: center;
+  letter-spacing: 2px;
+  justify-content: center;
+  user-select: none;
+  -webkit-box-shadow: 0px 10px 14px -4px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 10px 14px -4px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 10px 14px -4px rgba(0, 0, 0, 0.43);
 }
 
-.App-link {
-  color: #61dafb;
+.blog {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border-left: 1px solid #b39ddb;
+  border-right: 1px solid #b39ddb;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  background-color: white;
+  text-align: justify;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vocabularyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.blog h2 {
+  align-self: center;
+}
+
+.blog p {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.vocabularyCard {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 200px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.52);
+  align-items: center;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+}
+
+.vocabularyCard img {
+  width: 150px;
+  height: 150px;
+}
+
+.vocabularyCard span {
+  text-align: center;
+  margin-left: 5px;
+  letter-spacing: 1px;
 }
